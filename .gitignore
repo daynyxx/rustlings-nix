@@ -8,5 +8,7 @@ exercises/clippy/Cargo.lock
 .idea
 .vscode
 
-.direnv/!
+.direnv/*
 !.direnv/.git-keep
+result
+result-bin
