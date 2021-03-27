@@ -49,6 +49,16 @@ To install Rustlings. Same as on MacOS/Linux, you will have access to the `rustl
 
 When you get a permission denied message then you have to exclude the directory where you placed the rustlings in your virus-scanner
 
+## Nix
+
+[Install Nix](https://nixos.org/guides/install-nix.html) and [enable Nix flake support](https://nixos.wiki/wiki/Flakes).
+
+(Optional) Install [direnv](https://direnv.net).
+
+Running `nix develop` (or `direnv allow`, if you're using `direnv`) in this repository will automatically install rust, the rustlings tool, and rust-analyzer.
+
+If you'd like to use the `rustlings` tool elsewhere, this repository exposes it as a flake as well!
+
 ## Browser:
 
 [Run on Repl.it](https://repl.it/github/rust-lang/rustlings)
