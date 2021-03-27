@@ -38,7 +38,6 @@
         buildInputs = with pkgs; [
           (rustPkgs.workspace.rustlings {})
           rustStable
-          rust-analyzer
         ];
       };
     }
